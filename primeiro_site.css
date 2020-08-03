@@ -1,0 +1,94 @@
+#collumn{
+    margin-right: 150px;
+    margin-left: 150px;
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 20px;
+}
+h1{
+    font-size: 33px;
+    padding-top: 50px;
+    margin-top: 20px;
+    font-weight: 900;
+}
+.semit{
+    margin-left: 100px;
+    font-size: 14px;
+    text-decoration: underline;
+    font-weight: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+.cabeca{
+    padding-top: 100px;
+    padding-bottom: 380px;
+    border: solid white 1px;
+    font-size: 30px;
+    text-decoration: underline;
+    font-weight: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(48, 48, 48);
+    
+}
+h1{
+    font-size: 60px;
+    color: rgb(2, 2, 2);
+}
+#foto1{
+    background: url(file:///C:/Users/16105/Documents/JA%20Aula%20HTML/photo-1452179535021-368bb0edc3a8.jfif);
+    width: 100%;
+    text-align: center;
+    background-size: cover;
+    margin-bottom: 80px;
+}
+.textos{
+    font-size: 20px;
+    font-family: Helvetica;
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+#coluna1{
+    float: left;
+    width: 80%;
+}
+#grafico{
+    text-align: center;
+    margin-right: 50%;
+    width: 100%;
+    
+}
+#p2{
+    text-align: center;
+    font-style: italic;
+    margin-right: 270px;
+}
+#vid{
+    margin-left:10%;
+}
+body{
+    background-color: rgba(83, 182, 207, 0.849);
+}
+h3{
+    font-size: 15px;
+    font-style: helvetica;
+    margin-left: 100px;
+}
+ul{
+    font-weight: 350px;
+    font-style: verdana;
+    margin-left: 120px;
+}
+p{
+    font-size: 15px;
+    font-family: verdana;
+    font-weight: 300;
+    margin-left: 100px;
+    text-align: justify;
+}
