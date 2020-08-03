@@ -1,94 +1,111 @@
-#collumn{
-    margin-right: 150px;
-    margin-left: 150px;
-    background-color: rgb(255, 255, 255);
-    padding-bottom: 20px;
-}
-h1{
-    font-size: 33px;
-    padding-top: 50px;
-    margin-top: 20px;
-    font-weight: 900;
-}
-.semit{
-    margin-left: 100px;
-    font-size: 14px;
-    text-decoration: underline;
-    font-weight: 2px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: left;
-}
-.cabeca{
-    padding-top: 100px;
-    padding-bottom: 380px;
-    border: solid white 1px;
-    font-size: 30px;
-    text-decoration: underline;
-    font-weight: 2px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(48, 48, 48);
-    
-}
-h1{
-    font-size: 60px;
-    color: rgb(2, 2, 2);
-}
-#foto1{
-    background: url(file:///C:/Users/16105/Documents/JA%20Aula%20HTML/photo-1452179535021-368bb0edc3a8.jfif);
-    width: 100%;
-    text-align: center;
-    background-size: cover;
-    margin-bottom: 80px;
-}
-.textos{
-    font-size: 20px;
-    font-family: Helvetica;
-    color: rgb(0, 0, 0);
-    font-weight: 300;
-    margin-left: 150px;
-    margin-right: 150px;
-}
-.center{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 75%;
-}
-#coluna1{
-    float: left;
-    width: 80%;
-}
-#grafico{
-    text-align: center;
-    margin-right: 50%;
-    width: 100%;
-    
-}
-#p2{
-    text-align: center;
-    font-style: italic;
-    margin-right: 270px;
-}
-#vid{
-    margin-left:10%;
-}
-body{
-    background-color: rgba(83, 182, 207, 0.849);
-}
-h3{
-    font-size: 15px;
-    font-style: helvetica;
-    margin-left: 100px;
-}
-ul{
-    font-weight: 350px;
-    font-style: verdana;
-    margin-left: 120px;
-}
-p{
-    font-size: 15px;
-    font-family: verdana;
-    font-weight: 300;
-    margin-left: 100px;
-    text-align: justify;
-}
+Skip to content
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@art-ga 
+Learn Git and GitHub without any code!
+Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
+
+
+art-ga
+/
+Desafio-Semana-2
+1
+00
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+Desafio-Semana-2/primeiro_site.html
+@art-ga
+art-ga Add files via upload
+Latest commit df58fc5 8 minutes ago
+ History
+ 1 contributor
+65 lines (65 sloc)  3.82 KB
+  
+<html lang="pt-br">
+    <head>
+        <title>Meu Primeiro Site</title>
+        <meta name="description" content="Um experimento">
+        <meta name="author" content="Antonio">
+        <link rel="stylesheet"  href="primeiro_site.css">
+    </head>
+    <body>
+    <div id="collumn">
+        <header>
+            <div id="foto1">
+                <div class="cabeca">
+                <h1>Energia Limpa e Acessivel</h1>
+                </div>
+            </div>
+            <div class="semit"><h2>Introducao</h2></div>
+            <div class='textos'>
+                <p class="t1"> Um dos atuais objetivos fundamentais da humaniade, e aumentar sua capacidade energetica. Por isso, e um dos <a href="https://nacoesunidas.org/pos2015/ods7/" target="blank"> Objetivos de Desenvolvimento Sustentavel </a> (ODS) da ONU, trata justamente disso. O desenvolvimento da acessibiilidade a energia limpa.
+            </div>
+            <img src="file:///C:/Users/16105/Documents/JA%20Aula%20HTML/photo-1508514177221-188b1cf16e9d.jfif" alt="paneis solares ao sol" witdh="1020px" height="450px" class="center"/>
+        </header>
+        <main>
+    <br><br><br>
+        <div class="semit"><h2>A energia solar </h2></div>   
+        <div id="coluna1">
+            <p> 
+                Atualmente, como definido pelo orgao <a href="https://energync.org/what-is-clean-energy/" target="blank">energync.og</a>, energia limpa, como aquela vinda de um recurso renovavel de zero emissoes de poluentes, alem de energia salva por eficiencia. Os recursos renovaveis mais populares atualmete sao: solar, eolica, marinha e geotermica. <br><br>
+                Dentre essas, a energia solar e a mais promissora, visto que pertem a fonte <a href="https://youtu.be/1d0t-ROa0d8?t=6" target="blanck">mais acessivel</a> a humaniade. E vemos grande progresso no ramo. 
+            </p>    
+            <p>
+                Alem disso, o custo da ultilizacao de paneis solares diminui cada vez mais, tendo uma queda de <a href="https://www.forbes.com/sites/energyinnovation/2020/01/21/renewable-energy-prices-hit-record-lows-how-can-utilities-benefit-from-unstoppable-solar-and-wind/#6d69ccb52c84" target="blank">9% nas ultimas decadas</a>, indicando a seu potencial de ultilizacao em massa nos proximos anos. 
+            </p>
+        </div>
+        <div id="grafico">
+            <img src="file:///C:/Users/16105/Documents/JA%20Aula%20HTML/04.27_Tracking-solar-panel-efficiency_Blog.png" alt="Grafico registrando crescimento da eficiencia de paneis solares" width="30%"/>
+        </div>
+    <br>
+    <section>
+        <div class="textos">
+            <div id="vid">
+            <p><iframe width="795" height="542" src="https://www.youtube.com/embed/xKxrkht7CpY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+            </div>
+        </div>
+    </section>
+    </main>
+    <br><br>
+    <footer>
+        <div id="fontes">
+            <h3>Fontes:</h3>
+            <ul>
+                <li>https://nacoesunidas.org/pos2015/</li>
+                <li>https://nacoesunidas.org/pos2015/ods7/</li>
+                <li>https://energync.org/what-is-clean-energy/</li>
+                <li>https://www.energy.gov/science-innovation/clean-energy</li>
+                <li>https://www.youtube.com/watch?v=XwFB22r9zRo</li>
+                <li>https://news.energysage.com/solar-panel-efficiency-cost-over-time/</li>
+                <li>https://www.forbes.com/sites/energyinnovation/2020/01/21/renewable-energy-prices-hit-record-lows-how-can-utilities-benefit-from-unstoppable-solar-and-wind/#6d69ccb52c84</li>
+                <li>https://www.youtube.com/watch?v=xKxrkht7CpY</li>
+            </ul>
+        </div>
+    </div>
+    </footer>
+    </body>
+</html>
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
